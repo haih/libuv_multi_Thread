@@ -1,6 +1,7 @@
 Using libuv to implement the multithread feature
+The platform is windows
 
 there are three interface to the user:
 do_async_thread();
-void do_async_thread_pool();
-void do_async_thread_pool_while1();  
+do_async_thread_pool();
+do_async_thread_pool_while1();  
